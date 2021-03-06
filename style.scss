@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-jizzax {
+    background-color: #fc772c;
+    min-height: 100vh;
+    background-position: top;
+    background-image: url(./images/yurak.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position: top;
+    background-size: cover;
+    .birinchi {
+        nav {
+            padding: 35px 40px 0 40px;
+
+            .navbar-brand {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border: 1px solid white;
+                border-radius: 10px;
+                padding: 5px 10px;
+                p {
+                    margin: 0;
+                    border-left: 1px solid white;
+                    color: white;
+                    margin-left: 10px;
+                    padding: 0 0 0 10px;
+                    select {
+                        border: none;
+                        background: transparent;
+                        color: white;
+                        font-weight: 300;
+                        option {
+                            background-color: sandybrown;
+                        }
+                    }
+                }
+            }
+            .menular {
+                padding-left: 108px;
+                ul {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    li {
+                        margin-left: 34px;
+                        a {
+                            color: white;
+                            font-family: "Comfortaa", cursive;
+                            font-size: 20px;
+                        }
+                    }
+                    li:nth-child(5) {
+                        background-color: white;
+                        padding: 5px 10px;
+                        border-radius: 10px;
+                        .kirish {
+                            color: #252322;
+                            display: flex;
+                        }
+                    }
+                }
+            }
+        }
+        .jizzax-content {
+            width: 1100px;
+            border: 1px solid white;
+            border-radius: 10px;
+            height: 350px;
+            margin-top: 50px;
+            backdrop-filter: blur(104px);
+            .row {
+                padding: 0;
+                margin: 0;
+                .ustun-1 {
+                    padding: 40px 0 30px 50px;
+                    p:nth-child(1) {
+                        color: white;
+                        font-size: 26px;
+                        font-weight: bold;
+                        width: 234px;
+                        line-height: 28px;
+                    }
+                    p:nth-child(2) {
+                        color: white;
+                        width: 328px;
+                        font-weight: 300;
+                        margin-top: 20px;
+                    }
+                    button {
+                        padding: 10px 40px;
+                        border: 1px solid white;
+                        border-radius: 10px;
+                        background: transparent;
+                        color: white;
+                        font-size: 18px;
+                        margin-top: 10px;
+                    }
+                }
+                .ustun-2 {
+                    img {
+                        width: 85%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+        .jizzax-card {
+            width: 880px;
+            margin: 60px auto;
+            margin-bottom: 0;
+            .row {
+                .next {
+                    .card {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        border-radius: 15px;
+                        padding: 10px 20px;
+                        flex-direction: row;
+                        img {
+                            border: 1px solid transparent;
+                            padding: 15px;
+                            border-radius: 50%;
+                            box-shadow: -6px 16px 35px rgba(33, 20, 0, 0.15);
+                        }
+                        .card-content {
+                            p {
+                                margin: 0;
+                            }
+                            p:nth-child(1) {
+                                font-size: 20px;
+                                font-weight: bold;
+                                font-family: "Comfortaa", cursive;
+                            }
+                            p:nth-child(2) {
+                                color: #252322;
+                                font-family: "Comfortaa", cursive;
+                                font-size: 14px;
+                                opacity: 0.7;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.jizzax-footer {
+    background-color: #fc772c;
+    margin-top: 100px;
+    background-image: url(./images/Vector-footer.png);
+    background-position: right;
+    background-position: top;
+    padding-top: 20px;
+    .ikkinchi {
+        .app {
+            border-left: 5px solid white;
+            padding: 0;
+            .app-text {
+                .app-content {
+                    padding-top: 8px;
+                    color: white;
+                    font-weight: 500;
+                    font-size: 18px;
+                    font-family: "Baloo 2", cursive;
+                }
+            }
+            .play-app {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                .google {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-right: 20px;
+                    background-color: white;
+                    padding: 10px 50px 10px 10px;
+                    border-radius: 10px;
+
+                    img {
+                        margin-right: 20px;
+                    }
+                    .google-content {
+                        p:nth-child(1) {
+                            margin: 0;
+                            color: #565656;
+                            font-size: 14px;
+                        }
+                        p:nth-child(2) {
+                            margin: 0;
+                            color: #565656;
+                            font-weight: bolder;
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .line {
+        width: 100%;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        margin: 20px 0;
+    }
+    .uchinchi {
+        .address {
+            .my-footer {
+                padding: 0;
+                .address-left {
+                    display: flex;
+                    justify-content: space-around;
+                    padding: 30px;
+                    background: rgba(255, 255, 255, 0.04);
+                    border: 2px solid rgba(255, 255, 255, 0.3);
+                    backdrop-filter: blur(54px);
+                    border-radius: 30px;
+
+                    ul {
+                        li {
+                            list-style: none;
+                            margin-top: 15px;
+                            a {
+                                color: white;
+                                font-size: 18px;
+                                font-family: "Comfortaa", cursive;
+                            }
+                        }
+                    }
+                }
+            }
+            .mine-footer {
+                .address-right {
+                    padding: 20px 30px 20px 35px;
+                    background: rgba(255, 255, 255, 0.04);
+                    border: 2px solid rgba(255, 255, 255, 0.3);
+                    backdrop-filter: blur(54px);
+                    border-radius: 30px;
+                    ul {
+                        li {
+                            list-style: none;
+                            margin-top: 10px;
+                            margin-bottom: 20px;
+                            a {
+                                display: flex;
+                                align-items: center;
+                                img {
+                                    background-color: #fc772c;
+                                    border-radius: 15px;
+                                }
+                                .lacatsiya {
+                                    padding: 15px;
+                                    margin: 0;
+                                    margin-right: 15px;
+                                }
+                                .tel {
+                                    padding: 10px;
+                                    margin-right: 15px;
+                                }
+                                .message {
+                                    padding: 13px;
+                                    margin-right: 15px;
+                                }
+                                p {
+                                    margin: 0;
+                                    color: white;
+                                    font-family: "Comfortaa", cursive;
+                                }
+                                p:hover {
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .line-2 {
+        width: 100%;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        margin-top: 20px;
+    }
+    .tortinchi {
+        padding: 20px 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 300;
+        p {
+            color: white;
+            font-size: 18px;
+        }
+        img {
+            height: 50px;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .header-jizzax {
+        .birinchi {
+            nav {
+                .menular {
+                    padding-left: 10px;
+                }
+            }
+            .jizzax-content {
+                width: 800px;
+                margin: 20px 66px;
+                .row {
+                    .ustun-2 {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .jizzax-card {
+                .row {
+                    .next {
+                        padding-left: 30px;
+                        padding-right: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .header-jizzax {
+        .birinchi {
+            nav {
+                button {
+                    span {
+                        img {
+                            width: 50px;
+                        }
+                    }
+                }
+            }
+            .jizzax-content {
+                width: 572px;
+                height: 530px;
+                .row {
+                    .ustun-1 {
+                        padding: 20px 20px;
+                        p:nth-child(1) {
+                            width: 100%;
+                            text-align: center;
+                        }
+                        p:nth-child(2) {
+                            width: 100%;
+                            text-align: center;
+                        }
+                        button {
+                            margin-left: 36%;
+                        }
+                    }
+                    .ustun-2 {
+                        img {
+                            width: 70%;
+                            margin-left: 20%;
+                        }
+                    }
+                }
+            }
+            .jizzax-card {
+                width: 680px;
+                .row {
+                    .next {
+                        .card {
+                            width: 460px;
+                            margin: 10px auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .jizzax-footer {
+        .ikkinchi{
+            .app{
+                border: none;
+                .app-text{
+                    .app-content{
+                        text-align: center;
+                    margin-bottom: 15px;
+                    }
+                }
+                .app-pril{
+                    .play-app{
+                        .google{
+                            margin: 10px auto;
+                        }
+                    }
+                }
+            }
+        }
+        .uchinchi {
+            .address {
+                .mine-footer {
+                    padding: 0;
+                    margin-top: 15px;
+                    .address-right {
+                        padding-left: 68px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header-jizzax {
+        .birinchi {
+            .jizzax-content {
+                width: 378px;
+                height: 450px;
+            }
+            .jizzax-card {
+                width: 520px;
+                .row {
+                    .next {
+                        .card {
+                            width: 400px;
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+    .jizzax-footer{
+        .ikkinchi{
+            .app{
+                border: none;
+                .app-text{
+                    margin-bottom: 20px;
+                    .app-content{
+                        text-align: center;
+                    }
+                }
+                .app-pril{
+                    .play-app{
+                        padding-right: 28px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:575px){
+    .header-jizzax{
+        .birinchi{
+            .jizzax-content{
+                width: 254px;
+                height: 495px;
+                margin: 10px auto;
+                .row{
+                    .ustun-1{
+                        button{
+                            margin-left: 18%;
+                        }
+                    }
+                }
+            }
+            .jizzax-card{
+                width: 340px;
+                .row{
+                    .next{
+                        .card{
+                            width: 300px;
+                            height: 120px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .jizzax-footer{
+        .ikkinchi{
+            .app{
+                .app-pril{
+                   
+                    .play-app{
+                        width: 180px;
+                        display: block;
+                        margin: 0 auto;
+                        padding: 0;
+                        .google{
+                            padding: 10px 14px 10px 10px;
+                            margin-bottom: 10px;
+                            margin-right: 0;
+                           
+                        }
+                    }
+                }
+            }
+        }
+        .uchinchi{
+            .address{
+                .my-footer{
+                    .address-left{
+                        width: 350px;
+                        padding: 5px;
+                        margin: 10px auto;
+                    }
+                }
+                .mine-footer{
+                    .address-right{
+                        width: 350px;
+                        padding: 5px;
+                        margin: 10px auto;
+                    }
+                }
+            }
+        }
+        .tortinchi{
+            padding: 20px 10px;
+        }
+    }
+}

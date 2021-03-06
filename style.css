@@ -1,0 +1,515 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header-jizzax {
+  background-color: #fc772c;
+  min-height: 100vh;
+  background-position: top;
+  background-image: url(./images/yurak.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: top;
+  background-size: cover;
+}
+
+.header-jizzax .birinchi nav {
+  padding: 35px 40px 0 40px;
+}
+
+.header-jizzax .birinchi nav .navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.header-jizzax .birinchi nav .navbar-brand p {
+  margin: 0;
+  border-left: 1px solid white;
+  color: white;
+  margin-left: 10px;
+  padding: 0 0 0 10px;
+}
+
+.header-jizzax .birinchi nav .navbar-brand p select {
+  border: none;
+  background: transparent;
+  color: white;
+  font-weight: 300;
+}
+
+.header-jizzax .birinchi nav .navbar-brand p select option {
+  background-color: sandybrown;
+}
+
+.header-jizzax .birinchi nav .menular {
+  padding-left: 108px;
+}
+
+.header-jizzax .birinchi nav .menular ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-jizzax .birinchi nav .menular ul li {
+  margin-left: 34px;
+}
+
+.header-jizzax .birinchi nav .menular ul li a {
+  color: white;
+  font-family: "Comfortaa", cursive;
+  font-size: 20px;
+}
+
+.header-jizzax .birinchi nav .menular ul li:nth-child(5) {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.header-jizzax .birinchi nav .menular ul li:nth-child(5) .kirish {
+  color: #252322;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-jizzax .birinchi .jizzax-content {
+  width: 1100px;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 350px;
+  margin-top: 50px;
+  -webkit-backdrop-filter: blur(104px);
+          backdrop-filter: blur(104px);
+}
+
+.header-jizzax .birinchi .jizzax-content .row {
+  padding: 0;
+  margin: 0;
+}
+
+.header-jizzax .birinchi .jizzax-content .row .ustun-1 {
+  padding: 40px 0 30px 50px;
+}
+
+.header-jizzax .birinchi .jizzax-content .row .ustun-1 p:nth-child(1) {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  width: 234px;
+  line-height: 28px;
+}
+
+.header-jizzax .birinchi .jizzax-content .row .ustun-1 p:nth-child(2) {
+  color: white;
+  width: 328px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.header-jizzax .birinchi .jizzax-content .row .ustun-1 button {
+  padding: 10px 40px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background: transparent;
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.header-jizzax .birinchi .jizzax-content .row .ustun-2 img {
+  width: 85%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header-jizzax .birinchi .jizzax-card {
+  width: 880px;
+  margin: 60px auto;
+  margin-bottom: 0;
+}
+
+.header-jizzax .birinchi .jizzax-card .row .next .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+  padding: 10px 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header-jizzax .birinchi .jizzax-card .row .next .card img {
+  border: 1px solid transparent;
+  padding: 15px;
+  border-radius: 50%;
+  -webkit-box-shadow: -6px 16px 35px rgba(33, 20, 0, 0.15);
+          box-shadow: -6px 16px 35px rgba(33, 20, 0, 0.15);
+}
+
+.header-jizzax .birinchi .jizzax-card .row .next .card .card-content p {
+  margin: 0;
+}
+
+.header-jizzax .birinchi .jizzax-card .row .next .card .card-content p:nth-child(1) {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Comfortaa", cursive;
+}
+
+.header-jizzax .birinchi .jizzax-card .row .next .card .card-content p:nth-child(2) {
+  color: #252322;
+  font-family: "Comfortaa", cursive;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.jizzax-footer {
+  background-color: #fc772c;
+  margin-top: 100px;
+  background-image: url(./images/Vector-footer.png);
+  background-position: right;
+  background-position: top;
+  padding-top: 20px;
+}
+
+.jizzax-footer .ikkinchi .app {
+  border-left: 5px solid white;
+  padding: 0;
+}
+
+.jizzax-footer .ikkinchi .app .app-text .app-content {
+  padding-top: 8px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Baloo 2", cursive;
+}
+
+.jizzax-footer .ikkinchi .app .play-app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jizzax-footer .ikkinchi .app .play-app .google {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+  background-color: white;
+  padding: 10px 50px 10px 10px;
+  border-radius: 10px;
+}
+
+.jizzax-footer .ikkinchi .app .play-app .google img {
+  margin-right: 20px;
+}
+
+.jizzax-footer .ikkinchi .app .play-app .google .google-content p:nth-child(1) {
+  margin: 0;
+  color: #565656;
+  font-size: 14px;
+}
+
+.jizzax-footer .ikkinchi .app .play-app .google .google-content p:nth-child(2) {
+  margin: 0;
+  color: #565656;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.jizzax-footer .line {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 20px 0;
+}
+
+.jizzax-footer .uchinchi .address .my-footer {
+  padding: 0;
+}
+
+.jizzax-footer .uchinchi .address .my-footer .address-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(54px);
+          backdrop-filter: blur(54px);
+  border-radius: 30px;
+}
+
+.jizzax-footer .uchinchi .address .my-footer .address-left ul li {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.jizzax-footer .uchinchi .address .my-footer .address-left ul li a {
+  color: white;
+  font-size: 18px;
+  font-family: "Comfortaa", cursive;
+}
+
+.jizzax-footer .uchinchi .address .mine-footer .address-right {
+  padding: 20px 30px 20px 35px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(54px);
+          backdrop-filter: blur(54px);
+  border-radius: 30px;
+}
+
+.jizzax-footer .uchinchi .address .mine-footer .address-right ul li {
+  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.jizzax-footer .uchinchi .address .mine-footer .address-right ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jizzax-footer .uchinchi .address .mine-footer .address-right ul li a img {
+  background-color: #fc772c;
+  border-radius: 15px;
+}
+
+.jizzax-footer .uchinchi .address .mine-footer .address-right ul li a .lacatsiya {
+  padding: 15px;
+  margin: 0;
+  margin-right: 15px;
+}
+
+.jizzax-footer .uchinchi .address .mine-footer .address-right ul li a .tel {
+  padding: 10px;
+  margin-right: 15px;
+}
+
+.jizzax-footer .uchinchi .address .mine-footer .address-right ul li a .message {
+  padding: 13px;
+  margin-right: 15px;
+}
+
+.jizzax-footer .uchinchi .address .mine-footer .address-right ul li a p {
+  margin: 0;
+  color: white;
+  font-family: "Comfortaa", cursive;
+}
+
+.jizzax-footer .uchinchi .address .mine-footer .address-right ul li a p:hover {
+  text-decoration: none;
+}
+
+.jizzax-footer .line-2 {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 20px;
+}
+
+.jizzax-footer .tortinchi {
+  padding: 20px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 300;
+}
+
+.jizzax-footer .tortinchi p {
+  color: white;
+  font-size: 18px;
+}
+
+.jizzax-footer .tortinchi img {
+  height: 50px;
+}
+
+@media (max-width: 1199px) {
+  .header-jizzax .birinchi nav .menular {
+    padding-left: 10px;
+  }
+  .header-jizzax .birinchi .jizzax-content {
+    width: 800px;
+    margin: 20px 66px;
+  }
+  .header-jizzax .birinchi .jizzax-content .row .ustun-2 img {
+    width: 100%;
+  }
+  .header-jizzax .birinchi .jizzax-card .row .next {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header-jizzax .birinchi nav button span img {
+    width: 50px;
+  }
+  .header-jizzax .birinchi .jizzax-content {
+    width: 572px;
+    height: 530px;
+  }
+  .header-jizzax .birinchi .jizzax-content .row .ustun-1 {
+    padding: 20px 20px;
+  }
+  .header-jizzax .birinchi .jizzax-content .row .ustun-1 p:nth-child(1) {
+    width: 100%;
+    text-align: center;
+  }
+  .header-jizzax .birinchi .jizzax-content .row .ustun-1 p:nth-child(2) {
+    width: 100%;
+    text-align: center;
+  }
+  .header-jizzax .birinchi .jizzax-content .row .ustun-1 button {
+    margin-left: 36%;
+  }
+  .header-jizzax .birinchi .jizzax-content .row .ustun-2 img {
+    width: 70%;
+    margin-left: 20%;
+  }
+  .header-jizzax .birinchi .jizzax-card {
+    width: 680px;
+  }
+  .header-jizzax .birinchi .jizzax-card .row .next .card {
+    width: 460px;
+    margin: 10px auto;
+  }
+  .jizzax-footer .ikkinchi .app {
+    border: none;
+  }
+  .jizzax-footer .ikkinchi .app .app-text .app-content {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .jizzax-footer .ikkinchi .app .app-pril .play-app .google {
+    margin: 10px auto;
+  }
+  .jizzax-footer .uchinchi .address .mine-footer {
+    padding: 0;
+    margin-top: 15px;
+  }
+  .jizzax-footer .uchinchi .address .mine-footer .address-right {
+    padding-left: 68px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-jizzax .birinchi .jizzax-content {
+    width: 378px;
+    height: 450px;
+  }
+  .header-jizzax .birinchi .jizzax-card {
+    width: 520px;
+  }
+  .header-jizzax .birinchi .jizzax-card .row .next .card {
+    width: 400px;
+  }
+  .jizzax-footer .ikkinchi .app {
+    border: none;
+  }
+  .jizzax-footer .ikkinchi .app .app-text {
+    margin-bottom: 20px;
+  }
+  .jizzax-footer .ikkinchi .app .app-text .app-content {
+    text-align: center;
+  }
+  .jizzax-footer .ikkinchi .app .app-pril .play-app {
+    padding-right: 28px;
+  }
+}
+
+@media (max-width: 575px) {
+  .header-jizzax .birinchi .jizzax-content {
+    width: 254px;
+    height: 495px;
+    margin: 10px auto;
+  }
+  .header-jizzax .birinchi .jizzax-content .row .ustun-1 button {
+    margin-left: 18%;
+  }
+  .header-jizzax .birinchi .jizzax-card {
+    width: 340px;
+  }
+  .header-jizzax .birinchi .jizzax-card .row .next .card {
+    width: 300px;
+    height: 120px;
+  }
+  .jizzax-footer .ikkinchi .app .app-pril .play-app {
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .jizzax-footer .ikkinchi .app .app-pril .play-app .google {
+    padding: 10px 14px 10px 10px;
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+  .jizzax-footer .uchinchi .address .my-footer .address-left {
+    width: 350px;
+    padding: 5px;
+    margin: 10px auto;
+  }
+  .jizzax-footer .uchinchi .address .mine-footer .address-right {
+    width: 350px;
+    padding: 5px;
+    margin: 10px auto;
+  }
+  .jizzax-footer .tortinchi {
+    padding: 20px 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
